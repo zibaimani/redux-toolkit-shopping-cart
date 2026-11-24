@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components{
+      .btn-primary{
+            @apply cursor-pointer text-sm font-medium my-2 mx-2 text-cyan-900 transition hover:text-white hover:bg-cyan-900 border-2 border-cyan-900 rounded-md active:bg-cyan-900/75 active:border-cyan-900/85;
+      }
+      .btn-secondery{
+            @apply cursor-pointer rounded-sm border border-cyan-900 bg-cyan-900  text-white  hover:bg-white hover:border-cyan-900 hover:border-2 hover:text-cyan-900 active:bg-cyan-900/75 active:border-cyan-900/75 active:text-white
+      }
+}
